@@ -7,7 +7,21 @@ export const projects = [
     demoLink: 'https://skillboost-bt1n.vercel.app',
     githubLink: 'https://github.com/AkramovDiyor/Skillboost'
     
-  },
+  },  {
+    title: 'Gamma Krasota',
+    description: 'Сайт-лендинг для салона красоты с онлайн-записью, каталогом услуг и портфолио работ.',
+    img: '/assets/imgGamma.png',
+    technologies: ['React', 'Tailwind', 'Framer Motion', 'React Hook Form', 'Zustand'],
+    demoLink: 'https://gamma-krasota.vercel.app',
+    githubLink: 'https://github.com/AkramovDiyor/Gamma-krasota'
+  },  {
+    title: 'Landing Page AI',
+    description: 'Современный лендинг для AI-продукта с анимациями, адаптивным дизайном и интерактивными элементами.',
+    img: '/assets/imgAi.png',
+    technologies: ['html', 'Css', 'Ai', "Art"],
+    demoLink: 'https://landing-page-ai-green.vercel.app',
+    githubLink: 'https://github.com/AkramovDiyor/Landing-Page-AI'
+  }
   // {
   //   title: 'E-Commerce платформа',
   //   description: 'Полнофункциональный интернет-магазин с корзиной, оплатой, фильтрацией товаров и админ-панелью.',

@@ -14,7 +14,6 @@ const Navbar = () => {
     { name: 'Обо мне', href: '#about' },
     { name: 'Навыки', href: '#skills' },
     { name: 'Проекты', href: '#projects' },
-    { name: 'Опыт', href: '#experience' },
     { name: 'Контакты', href: '#contact' },
   ];
 
