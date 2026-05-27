@@ -1,11 +1,17 @@
 import React from 'react';
-
+import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
+import { CgMail } from "react-icons/cg";
+import { } from "react-icons/fa";
 const Footer = () => {
   const socialLinks = [
-    { icon: '🐙', href: 'https://github.com/username', label: 'GitHub' },
-    { icon: '💼', href: 'https://linkedin.com/in/username', label: 'LinkedIn' },
-    { icon: '💬', href: 'https://t.me/username', label: 'Telegram' },
-    { icon: '🐦', href: 'https://twitter.com/username', label: 'Twitter' },
+    { icon: <FaGithub />, href: 'https://github.com/AkramovDiyor', label: 'GitHub' },
+    { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/диор-акрамов-455b64365?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
+    { icon: <FaTelegram />, href: 'https://t.me/AkramovDiyo', label: 'Telegram' },
+    { 
+      icon: <CgMail />, 
+      href: 'mailto:akramovdiyordev@gmail.com', 
+      label: 'Gmail' 
+    },
   ];
 
   return (
@@ -25,7 +31,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="text-text-secondary text-sm">
-        © 2025 Иван Петров. Создано с ❤️ и ☕
+        © 2025 Акрамов Диёр. Все права защищены.
       </p>
     </footer>
   );

@@ -2,10 +2,11 @@ export const projects = [
   {
     title: 'SkillBoost',
     description: 'Платформа для подготовки к техническим собеседованиям: роудмап, тренажёр собеседований, база вопросов и live‑coding.',
-    icon: '🚀',
-    technologies: ['React', 'TypeScript', 'Tailwind', 'Node.js', 'PostgreSQL'],
+    img: '/assets/imgSkillboost.png',
+    technologies: ['React', 'Webworker', 'Tailwind', 'Node.js', 'Express.js'],
     demoLink: 'https://skillboost-bt1n.vercel.app',
-    githubLink: '#'
+    githubLink: 'https://github.com/AkramovDiyor/Skillboost'
+    
   },
   // {
   //   title: 'E-Commerce платформа',

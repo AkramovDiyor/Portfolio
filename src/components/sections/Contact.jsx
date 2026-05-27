@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { FaGithub, FaTelegram } from "react-icons/fa";
+import { CgMail } from "react-icons/cg";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -22,9 +23,9 @@ const Contact = () => {
   };
 
   const contactLinks = [
-    { icon: '', label: 'Email', value: 'akramovdiyordev@gmail.com', href: 'akramovdiyordev@gmail.com' },
-    { icon: '', label: 'Telegram', value: '@AkramovDiyor', href: 'https://t.me/AkramovDiyor' },
-    { icon: '', label: 'GitHub', value: 'github.com/AkramovDiyor', href: 'https://github.com/AkramovDiyor' },
+    { icon: <CgMail /> , label: 'Email', value: 'akramovdiyordev@gmail.com', href: 'mailto:akramovdiyordev@gmail.com' },
+    { icon: <FaTelegram />, label: 'Telegram', value: '@AkramovDiyor', href: 'https://t.me/AkramovDiyor' },
+    { icon: <FaGithub />, label: 'GitHub', value: 'github.com/AkramovDiyor', href: 'https://github.com/AkramovDiyor' },
   ];
 
   return (
