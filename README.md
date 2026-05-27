@@ -1,8 +1,18 @@
-# React + Vite
+# Мое портфолио
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Currently, two official plugins are available:
+Персональный сайт-портфолио, созданный для демонстрации моих проектов, навыков и опыта. Здесь вы найдете информацию обо мне, примеры работ и способы связаться.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Живой сайт:** [https://portfolio-olive-five-30.vercel.app](https://portfolio-olive-five-30.vercel.app)
+
+
+## 🛠️ Технологии
+
+Проект построен на современном стеке:
+
+*   **React** — библиотека для создания пользовательских интерфейсов
+*   **Vite** — быстрый сборщик и среда разработки                       
+*   **Vercel** — хостинг и деплой
