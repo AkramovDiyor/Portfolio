@@ -22,9 +22,9 @@ const Contact = () => {
   };
 
   const contactLinks = [
-    { icon: '📧', label: 'Email', value: 'ivan@example.com', href: 'mailto:ivan@example.com' },
-    { icon: '💬', label: 'Telegram', value: '@username', href: 'https://t.me/username' },
-    { icon: '🐙', label: 'GitHub', value: 'github.com/username', href: 'https://github.com/username' },
+    { icon: '', label: 'Email', value: 'akramovdiyordev@gmail.com', href: 'akramovdiyordev@gmail.com' },
+    { icon: '', label: 'Telegram', value: '@AkramovDiyor', href: 'https://t.me/AkramovDiyor' },
+    { icon: '', label: 'GitHub', value: 'github.com/AkramovDiyor', href: 'https://github.com/AkramovDiyor' },
   ];
 
   return (
